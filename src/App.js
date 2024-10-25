@@ -7,7 +7,7 @@ import { useState,useEffect } from 'react';
 import apiRequest from './apiRequest';
 
 function App() {
-  const API_URL = 'http://localhost:3500/items';
+  const API_URL = 'https://github.com/garry-01/json-server/blob/main/db.json';
 
   const [items, setItems] = useState([]);
   const [newItem, setnewItem] = useState('');
